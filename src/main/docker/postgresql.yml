@@ -1,0 +1,11 @@
+version: '2'
+services:
+  onlinestore-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/onlinestore/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=onlinestore
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
