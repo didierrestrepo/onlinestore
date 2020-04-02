@@ -10,6 +10,7 @@
         "product": "Product",
         "productCategory": "Product Category",
         "customer": "Customer",
+        "stock": "Stock",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
